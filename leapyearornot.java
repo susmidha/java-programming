@@ -14,8 +14,8 @@ class Ideone
 		System.out.print("enter the year:");
 		a=scan.nextInt();
 		if(a%4==0)
-		System.out.print("leapyear!"+a);
+		System.out.print("yes!"+a);
 		else
-		System.out.println("not a leapyear!"+a);
+		System.out.println("no!"+a);
 	}
 }
