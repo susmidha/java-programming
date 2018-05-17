@@ -16,6 +16,6 @@ class Ideone
 		if((ch>='A'&&ch<='Z')||(ch>='a'&&ch<='z'))
 		System.out.print("Alaphabet");
 		else
-		System.out.print("digit");
+		System.out.print("no");
 	}
 }
