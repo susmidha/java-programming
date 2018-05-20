@@ -22,11 +22,11 @@ class Ideone
 		}
 		if(num==org)
 		{
-			System.out.print("its amstrong\n");
+			System.out.print("yes!\n");
 		}
 		else
 		{
-			System.out.print("its not amstrong\n");
+			System.out.print("no!\n");
 		}
 	
 	
