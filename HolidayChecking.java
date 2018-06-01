@@ -11,11 +11,29 @@ class Ideone
 		Scanner scan =new Scanner(System.in);
 		String day=scan.nextLine();
 	switch(day){
-		case "sunday":
+		case "Sunday":
 			System.out.println("yes");
 			break;
-	            case "saturday":
+	        case "Saturday":
 	            	System.out.println("yes");
+			break;
+		 case "Monday":
+	            System.out.println("no");
+			break;
+	         case "Tueday":
+	            	System.out.println("no");
+			break;
+			 
+		case "Wednesday":
+	            	System.out.println("no");
+			break;
+			
+		case "Thursday":
+			System.out.println("no");
+			break;
+			
+		case "Friday":
+	            	System.out.println("no");
 			break;
 	            default:
 			System.out.println("no");
