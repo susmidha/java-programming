@@ -25,8 +25,9 @@ class GFG
 	// Driver method
 	public static void main(String args[])
 	{
-		String str= "Hello world";
-		char c = 'l';
+		Scanner scan=new Scanner(System.in);
+		String str= scan.next();
+		char c = '1';
 		System.out.println(count(str, c));
 	}
 }
