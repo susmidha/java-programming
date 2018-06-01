@@ -9,7 +9,7 @@ class GFG
 {
 	// Method that return count of the given
 	// character in the string
-	public static int count(String s, char c)
+	public static int count(String s,char c)
 	{
 		int res = 0;
 
@@ -27,7 +27,7 @@ class GFG
 	{
 		Scanner scan=new Scanner(System.in);
 		String str= scan.next();
-		char c = '1';
+		char c = scan.next().charAt(0);
 		System.out.println(count(str, c));
 	}
 }
