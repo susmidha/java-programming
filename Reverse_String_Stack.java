@@ -9,7 +9,6 @@ class Ideone
 	{
 		// your code goes here
 		Scanner scan =new Scanner(System.in);
-		System.out.println("enter your string");
 		String str=scan.nextLine();
 		Stack s=new Stack();
 		for(int i=0;i<str.length();i++){
