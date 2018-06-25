@@ -28,6 +28,33 @@ public class String_Reverse {
 	}
 	
 	
+	
+		public  static String toChange1(String r) {
+		
+		String result="";
+			for(int i=0;i<r.length();i++) {
+				char cchar=r.charAt(i);
+				if(Character.isUpperCase(cchar)) {
+					char rchar=Character.toLowerCase(cchar);
+					
+					result=result+rchar;
+				}
+				else if(Character.isLowerCase(cchar)) {
+					char rchar=Character.toUpperCase(cchar);
+					result+=rchar;
+			}
+				else {
+					result+=cchar;
+				}
+				
+			
+			
+			}
+
+		 return  result;
+		}
+		
+		
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -44,10 +71,17 @@ public class String_Reverse {
      for(int j=s2.length()-1;j>=0;j--) {
     	 r2=r2+s2.charAt(j);
      }
-    
+     System.out.println(r1 +r2);
     String res1= String_Reverse.toChange(r1);
     String res2= String_Reverse.toChange(r2);
+    
     System.out.println(res1 +res2);
+    
+    String res3= String_Reverse.toChange1(r1);
+    String res4= String_Reverse.toChange1(r2);
+    
+    System.out.println(res3 +res4);
+    
 
      
      
@@ -55,4 +89,3 @@ public class String_Reverse {
 	
 
 }
-
