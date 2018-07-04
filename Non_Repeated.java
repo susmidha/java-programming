@@ -15,11 +15,10 @@ public class Non_Repeated {
 			arr[i]=sc.nextInt();
 			al.add(arr[i]);
 		}
-		System.out.println(al);
+		
 		for(int j=0;j<al.size();j++) {
 			al1.add(Collections.frequency(al, al.get(j)));
 		}
-		System.out.println(al1);
 		for(int j=0;j<al.size();j++) {
 			if(al1.get(j)>1) {
 				
