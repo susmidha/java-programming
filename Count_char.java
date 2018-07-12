@@ -10,7 +10,7 @@ String t[]=new String[s.length()];
 
 for(int i=0;i<s.length();i++) {
 	if(Character.isWhitespace(s.charAt(i))) {
-		count--;
+		//count--;
 		//System.out.println(count);
 	}
 	else {
