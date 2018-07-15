@@ -10,28 +10,22 @@ class Ideone
 		// your code goes here
 		Scanner s=new Scanner(System.in);
 		int n=s.nextInt();
-	            int n1=s.nextInt(); 
-	            int n2=s.nextInt(); 
-	            int n3=s.nextInt();
-	            if(n1>n2&&n1>n3){
-	            System.out.print(n1+" ");
+	            int a[]=new int[n];
+	            for(int i=0;i<n;i++){
+	            	a[i]=s.nextInt();
 	            }
-	            else if(n2>n1&&n2>n3){
-	            System.out.print(n2+" ");
+	            for(int i=0;i<n;i++){
+	            	for(int j=i+1;j<n;j++){
+	            		if(a[i]>a[j]){
+	            			int t;
+	            			t=a[i];
+	            			a[i]=a[j];
+	            			a[j]=t;
+	            		}
+	            	}
 	            }
-	            else{
-	            System.out.print(n3+" ");
-	            }
-	            if(n1<n2&&n1<n3){
-	            System.out.print(n1+" ");
-	            }
-	            else if(n2<n1&&n2<n3){
-	            System.out.print(n2+" ");
-	            }
-	            else{
-	            System.out.print(n3+" ");
-	            }
-	           
+	            System.out.print(a[0]+" ");
+	             System.out.print(a[n-1]);
 		
 	}
 }
