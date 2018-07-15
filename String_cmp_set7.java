@@ -9,8 +9,8 @@ class Ideone
 	{
 		// your code goes here
 		Scanner s=new Scanner(System.in);
-		String str1=s.nextLine();
-	            String str2=s.nextLine();
+		String str1=s.next();
+	            String str2=s.next();
 	            int n1=str1.length();
 	            int n2=str2.length();
 	            if(n1>n2){
