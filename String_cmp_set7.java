@@ -22,7 +22,7 @@ class Ideone
 	        	
 	            }
 	            else{
-	            		System.out.println(str1);
+	            		System.out.println(str2);
 	            }
 		
 		
